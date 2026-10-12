@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordJump</title>
+    <style>
+        :root {
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --primary-color: #4a90e2;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #357abd;
+        }
+
+        .btn-secondary {
+            background-color: #95a5a6;
+            margin-top: 20px;
+        }
+
+        .btn-secondary:hover {
+            background-color: #7f8c8d;
+        }
+
+        /* Page visibility toggles */
+        .page {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        /* Flashcard placeholder style */
+        .flashcard-placeholder {
+            border: 2px dashed #bdc3c7;
+            padding: 40px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            background: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HOME PAGE -->
+        <div id="home-page" class="page active">
+            <h1>Home</h1>
+            <p>Welcome to WordJump! Here you can study the most common words in multiple languages!</p>
+            <button class="btn" onclick="navigateTo('flashcard-page')">Go to Flashcards &rarr;</button>
+        </div>
+
+        <!-- FLASHCARD PAGE (WORK IN PROGRESS) -->
+        <div id="flashcard-page" class="page">
+            <h1>Flashcards</h1>
+            <div class="flashcard-placeholder">
+                <p style="font-size: 1.5rem; margin: 0;">WIP</p>
+                <p><strong>Work in Progress</strong></p>
+                <p style="font-size: 0.9rem; color: #888;">The flashcard deck system is currently under construction.</p>
+            </div>
+            <button class="btn btn-secondary" onclick="navigateTo('home-page')">&larr; Back to Home</button>
+        </div>
+    </div>
+
+    <script>
+        function navigateTo(pageId) {
+            // Hide all pages
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            // Show the selected page
+            document.getElementById(pageId).classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
