@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordJump</title>
+    <style>
+        :root {
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --primary-color: #4a90e2;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #357abd;
+        }
+
+        .btn-secondary {
+            background-color: #95a5a6;
+            margin-top: 20px;
+        }
+
+        .btn-secondary:hover {
+            background-color: #7f8c8d;
+        }
+
+        /* Page visibility toggles */
+        .page {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        /* --- INTEGRATED FLASHCARD STYLES --- */
+        .flashcard-scene {
+            width: 100%;
+            height: 220px;
+            perspective: 600px;
+            margin: 20px 0;
+        }
+
+        .flashcard {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+
+        .flashcard.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        .flashcard-front {
+            background: #fafafa;
+            border: 2px solid #e0e0e0;
+            color: var(--text-color);
+        }
+
+        .flashcard-back {
+            background: #eef5fc;
+            border: 2px solid var(--primary-color);
+            color: #2c3e50;
+            transform: rotateY(180deg);
+        }
+
+        .word-title {
+            font-size: 2rem;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+
+        .meta-text {
+            font-size: 0.9rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .action-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .action-container .btn {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HOME PAGE -->
+        <div id="home-page" class="page active">
+            <h1>Home</h1>
+            <p>Welcome to WordJump! Here you can study the most common words in multiple languages!</p>
+            <button class="btn" onclick="navigateTo('flashcard-page')">Go to Flashcards &rarr;</button>
+        </div>
+
+        <!-- FLASHCARD PAGE -->
+        <div id="flashcard-page" class="page">
+            <h1>Flashcards</h1>
+            
+            {% if card %}
+            <!-- 3D Flippable Flashcard -->
+            <div class="flashcard-scene">
+                <div class="flashcard" id="card" onclick="flipCard()">
+                    <!-- Front Side -->
+                    <div class="flashcard-face flashcard-front">
+                        <div class="word-title">{{ card.foreign_word }}</div>
+                        {% if card.part_of_speech %}
+                            <div class="meta-text">{{ card.part_of_speech }}</div>
+                        {% endif %}
+                        <p style="font-size: 0.85rem; color: #aaa; margin-top: 15px;">(Click to see translation)</p>
+                    </div>
+                    <!-- Back Side -->
+                    <div class="flashcard-face flashcard-back">
+                        <div class="word-title" style="color: var(--primary-color);">{{ card.translation }}</div>
+                        {% if card.example_sentence %}
+                            <p style="margin: 5px 0 0 0; font-size: 0.95rem;">"{{ card.example_sentence }}"</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <!-- Fallback if database is empty -->
+            <p>No flashcards found. Please run the import command first!</p>
+            {% endif %}
+
+            <!-- Navigation Controls -->
+            <div class="action-container">
+                <button class="btn btn-secondary" style="margin-top: 0;" onclick="navigateTo('home-page')">&larr; Home</button>
+                <button class="btn" onclick="loadNextCard()">Next Word &rarr;</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function navigateTo(pageId) {
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            document.getElementById(pageId).classList.add('active');
+            
+            // Save active view state to localStorage so refreshes keep you on the same page
+            localStorage.setItem('activePage', pageId);
+        }
+
+        function flipCard() {
+            document.getElementById('card').classList.toggle('is-flipped');
+        }
+
+        function loadNextCard() {
+            // Trigger a page reload to pull a new random card from Django
+            window.location.reload();
+        }
+
+        // Restore active page state on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedPage = localStorage.getItem('activePage');
+            if (savedPage) {
+                navigateTo(savedPage);
+            }
+        });
+    </script>
+
+</body>
+</html>
