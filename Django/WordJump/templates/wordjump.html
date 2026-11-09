@@ -1,0 +1,508 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WordJump - Japanese Flashcards</title>
+
+    <style>
+        :root {
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --primary-color: #4a90e2;
+            --primary-hover: #357abd;
+            --text-color: #333333;
+            --secondary-color: #95a5a6;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                         'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-hover);
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #7f8c8d;
+        }
+
+        .level-selector {
+            margin: 20px 0;
+        }
+
+        .level-selector label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .level-selector select {
+            width: 100%;
+            max-width: 250px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+            background: white;
+            cursor: pointer;
+        }
+
+        /* Page navigation */
+
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        /* Flashcard */
+
+        .flashcard-scene {
+            width: 100%;
+            height: 220px;
+            perspective: 1000px;
+            margin: 25px auto;
+        }
+
+        .flashcard {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s ease;
+            cursor: pointer;
+        }
+
+        .flashcard.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            overflow-wrap: anywhere;
+            text-align: center;
+        }
+
+        .flashcard-front {
+            background: #fafafa;
+            border: 2px solid #e0e0e0;
+            color: var(--text-color);
+        }
+
+        .flashcard-back {
+            background: #eef5fc;
+            border: 2px solid var(--primary-color);
+            color: #2c3e50;
+            transform: rotateY(180deg);
+        }
+
+        .word-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 0 0 10px;
+        }
+
+        .meta-text {
+            font-size: 0.9rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .instruction {
+            font-size: 0.85rem;
+            color: #aaa;
+            margin-top: 15px;
+        }
+
+        .example-sentence {
+            margin-top: 10px;
+            font-size: 0.95rem;
+        }
+
+        .word-count {
+            color: #888;
+            font-size: 0.85rem;
+            margin-top: 10px;
+        }
+
+        .empty-message {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .empty-message p {
+            color: #856404;
+        }
+
+        /* Navigation buttons */
+
+        .action-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .action-container .btn {
+            flex: 1;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+
+            .word-title {
+                font-size: 1.6rem;
+            }
+
+            .flashcard-scene {
+                height: 200px;
+            }
+
+            .btn {
+                padding: 11px 12px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .flashcard {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HOME PAGE -->
+
+    <div id="home-page"
+         class="page {% if page == 'home' %}active{% endif %}">
+
+        <h1>Welcome to WordJump!</h1>
+
+        <p>
+            Learn Japanese vocabulary with interactive flashcards.
+            Study the most common Japanese words and improve
+            your vocabulary one word at a time!
+        </p>
+
+        <button
+            class="btn"
+            onclick="window.location.href='/flashcards/'"
+        >
+            Go to Flashcards →
+        </button>
+
+    </div>
+
+
+    <!-- FLASHCARD PAGE -->
+
+    <div id="flashcard-page"
+         class="page {% if page == 'flashcards' %}active{% endif %}">
+
+        <h1>Japanese Flashcards</h1>
+
+        <!-- JLPT LEVEL SELECTOR -->
+
+        <div class="level-selector">
+
+            <label for="level">Choose JLPT Level:</label>
+
+            <select id="level" onchange="changeLevel(this.value)">
+
+                <option value="N5"
+                    {% if selected_level == 'N5' %}selected{% endif %}>
+                    JLPT N5 - Beginner
+                </option>
+
+                <option value="N4"
+                    {% if selected_level == 'N4' %}selected{% endif %}>
+                    JLPT N4 - Elementary
+                </option>
+
+                <option value="N3"
+                    {% if selected_level == 'N3' %}selected{% endif %}>
+                    JLPT N3 - Intermediate
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- FLASHCARD CONTENT -->
+
+        {% if card %}
+
+        <div class="flashcard-scene">
+
+            <div
+                class="flashcard"
+                id="card"
+                onclick="flipCard()"
+                role="button"
+                tabindex="0"
+                aria-label="Flashcard. Activate to reveal translation."
+                aria-pressed="false"
+                onkeydown="handleCardKey(event)"
+            >
+
+                <!-- FRONT OF CARD -->
+
+                <div class="flashcard-face flashcard-front">
+
+                    <div class="word-title">
+                        {{ card.foreign_word }}
+                    </div>
+
+                    {% if card.part_of_speech %}
+
+                        <div class="meta-text">
+                            {{ card.part_of_speech }}
+                        </div>
+
+                    {% endif %}
+
+                    <p class="instruction">
+                        Click the card to see the translation
+                    </p>
+
+                </div>
+
+
+                <!-- BACK OF CARD -->
+
+                <div class="flashcard-face flashcard-back">
+
+                    <div class="word-title"
+                         style="color: var(--primary-color);">
+
+                        {{ card.translation }}
+
+                    </div>
+
+                    {% if card.example_sentence %}
+
+                        <p class="example-sentence">
+                            {{ card.example_sentence }}
+                        </p>
+
+                    {% endif %}
+
+                    <p class="instruction">
+                        Click to see the Japanese word again
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="word-count">
+            {{ total_words }} words available in this level
+        </div>
+
+        {% else %}
+
+            <div class="empty-message">
+
+                <p>
+                    No flashcards found for this level.
+                    Please import your vocabulary database.
+                </p>
+
+            </div>
+
+        {% endif %}
+
+
+        <!-- NAVIGATION BUTTONS -->
+
+        <div class="action-container">
+
+            <button
+                class="btn btn-secondary"
+                onclick="navigateTo('home-page')"
+            >
+                ← Home
+            </button>
+
+            {% if card %}
+
+                <button
+                    class="btn"
+                    onclick="loadNextCard()"
+                >
+                    Next Word →
+                </button>
+
+            {% endif %}
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+    // Navigate between Home and Flashcards
+
+    function navigateTo(pageId) {
+
+        document.querySelectorAll('.page').forEach(page => {
+            page.classList.remove('active');
+        });
+
+        const selectedPage = document.getElementById(pageId);
+
+        if (selectedPage) {
+            selectedPage.classList.add('active');
+        }
+
+    }
+
+
+    // Flip flashcard
+
+    function flipCard() {
+
+        const card = document.getElementById('card');
+
+        if (!card) return;
+
+        card.classList.toggle('is-flipped');
+
+        card.setAttribute(
+            'aria-pressed',
+            card.classList.contains('is-flipped') ? 'true' : 'false'
+        );
+
+    }
+
+
+    // Keyboard support
+
+    function handleCardKey(event) {
+
+        if (event.key === 'Enter' || event.key === ' ') {
+
+            event.preventDefault();
+            flipCard();
+
+        }
+
+    }
+
+
+    // Change JLPT level
+
+    function changeLevel(level) {
+
+        const validLevels = ['N5', 'N4', 'N3'];
+
+        if (!validLevels.includes(level)) return;
+
+        window.location.href =
+            '/flashcards/?level=' + encodeURIComponent(level);
+
+    }
+
+
+    // Load next random flashcard
+
+    function loadNextCard() {
+
+        const card = document.getElementById('card');
+
+        if (card) {
+            card.classList.remove('is-flipped');
+        }
+
+        window.location.reload();
+
+    }
+
+</script>
+
+</body>
+</html>
