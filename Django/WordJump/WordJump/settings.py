@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'japanese',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -82,3 +83,14 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Authentication
+
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'flashcards'
+LOGOUT_REDIRECT_URL = 'home'
+
+# During development, password-reset emails are printed to the terminal.
+# Swap for an SMTP backend (EMAIL_HOST etc.) before going live.
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'WordJump <noreply@wordjump.local>'

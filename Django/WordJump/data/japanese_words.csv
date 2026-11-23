@@ -50,3 +50,1016 @@ foreign_word,translation,part_of_speech,example_sentence,jlpt_level
 勉強する,To study,Verb,日本語を勉強します。,N5
 新しい,New,い-adjective,新しい本を買いました。,N5
 古い,Old,い-adjective,古い家があります。,N5
+時,Time or hour,Noun,子供の時、東京に住んでいました。,N5
+分,Minute,Noun,五分待ってください。,N5
+半,Half,Noun,七時半に起きます。,N5
+午前,Morning or a.m.,Noun,午前中は忙しいです。,N5
+午後,Afternoon or p.m.,Noun,午後に友達に会います。,N5
+今週,This week,Noun,今週は休みがありません。,N5
+先週,Last week,Noun,先週映画を見ました。,N5
+来週,Next week,Noun,来週テストがあります。,N5
+今月,This month,Noun,今月は忙しいです。,N5
+先月,Last month,Noun,先月京都へ行きました。,N5
+来月,Next month,Noun,来月引っ越します。,N5
+今年,This year,Noun,今年は日本へ行きたいです。,N5
+去年,Last year,Noun,去年結婚しました。,N5
+来年,Next year,Noun,来年大学に入ります。,N5
+毎週,Every week,Noun,毎週プールで泳ぎます。,N5
+毎月,Every month,Noun,毎月本を三冊読みます。,N5
+毎年,Every year,Noun,毎年海へ行きます。,N5
+毎晩,Every night,Noun,毎晩日記を書きます。,N5
+今朝,This morning,Noun,今朝は寒かったです。,N5
+今晩,Tonight,Noun,今晩カレーを作ります。,N5
+夕方,Evening,Noun,夕方に雨が降りました。,N5
+晩,Evening or night,Noun,晩ご飯は七時です。,N5
+週末,Weekend,Noun,週末は何をしますか。,N5
+休み,Holiday or day off,Noun,明日は休みです。,N5
+夏休み,Summer vacation,Noun,夏休みに旅行します。,N5
+誕生日,Birthday,Noun,誕生日おめでとうございます。,N5
+曜日,Day of the week,Noun,今日は何曜日ですか。,N5
+月曜日,Monday,Noun,月曜日は仕事です。,N5
+火曜日,Tuesday,Noun,火曜日にピアノを習います。,N5
+水曜日,Wednesday,Noun,水曜日は早く帰ります。,N5
+木曜日,Thursday,Noun,木曜日に会議があります。,N5
+金曜日,Friday,Noun,金曜日の夜は楽しいです。,N5
+土曜日,Saturday,Noun,土曜日に買い物をします。,N5
+日曜日,Sunday,Noun,日曜日は家にいます。,N5
+春,Spring,Noun,春は花が綺麗です。,N5
+夏,Summer,Noun,夏は暑いです。,N5
+秋,Autumn,Noun,秋は涼しいです。,N5
+冬,Winter,Noun,冬は雪が降ります。,N5
+天気,Weather,Noun,今日はいい天気ですね。,N5
+雨,Rain,Noun,雨が降っています。,N5
+雪,Snow,Noun,雪が白いです。,N5
+風,Wind,Noun,今日は風が強いです。,N5
+晴れ,Clear weather,Noun,明日は晴れでしょう。,N5
+曇り,Cloudy weather,Noun,今日は曇りです。,N5
+空,Sky,Noun,空が青いです。,N5
+山,Mountain,Noun,山に登ります。,N5
+川,River,Noun,川で泳ぎます。,N5
+海,Sea or ocean,Noun,海が見えます。,N5
+花,Flower,Noun,花を買いました。,N5
+木,Tree or wood,Noun,庭に大きい木があります。,N5
+池,Pond,Noun,池に魚がいます。,N5
+道,Road or way,Noun,この道をまっすぐ行ってください。,N5
+駅,Station,Noun,駅はどこですか。,N5
+電車,Train,Noun,電車で会社へ行きます。,N5
+バス,Bus,Noun,バスを待っています。,N5
+車,Car,Noun,父は車を運転します。,N5
+自転車,Bicycle,Noun,自転車で学校へ行きます。,N5
+飛行機,Airplane,Noun,飛行機で沖縄へ行きます。,N5
+地下鉄,Subway,Noun,地下鉄は便利です。,N5
+タクシー,Taxi,Noun,タクシーを呼びましょう。,N5
+切符,Ticket,Noun,切符を買います。,N5
+地図,Map,Noun,地図を見てください。,N5
+家,House or home,Noun,家に帰ります。,N5
+部屋,Room,Noun,私の部屋は狭いです。,N5
+台所,Kitchen,Noun,母は台所にいます。,N5
+窓,Window,Noun,窓を開けてください。,N5
+ドア,Door,Noun,ドアを閉めます。,N5
+門,Gate,Noun,学校の門の前で会いましょう。,N5
+庭,Garden or yard,Noun,庭で犬が遊んでいます。,N5
+机,Desk,Noun,机の上に本があります。,N5
+椅子,Chair,Noun,椅子に座ってください。,N5
+本,Book,Noun,本を読みます。,N5
+本棚,Bookshelf,Noun,本棚に辞書があります。,N5
+ノート,Notebook,Noun,ノートに名前を書きます。,N5
+鉛筆,Pencil,Noun,鉛筆で書いてください。,N5
+ペン,Pen,Noun,ペンを貸してください。,N5
+紙,Paper,Noun,紙が一枚あります。,N5
+辞書,Dictionary,Noun,辞書で言葉を調べます。,N5
+新聞,Newspaper,Noun,毎朝新聞を読みます。,N5
+雑誌,Magazine,Noun,雑誌を買いました。,N5
+手紙,Letter,Noun,母に手紙を書きます。,N5
+写真,Photograph,Noun,写真を撮りましょう。,N5
+映画,Movie,Noun,映画を見に行きます。,N5
+音楽,Music,Noun,音楽を聞くのが好きです。,N5
+歌,Song,Noun,この歌が好きです。,N5
+絵,Picture or painting,Noun,妹は絵が上手です。,N5
+テレビ,Television,Noun,夜テレビを見ます。,N5
+ラジオ,Radio,Noun,車でラジオを聞きます。,N5
+カメラ,Camera,Noun,新しいカメラを買いました。,N5
+電話,Telephone,Noun,電話が鳴っています。,N5
+時計,Clock or watch,Noun,この時計は高いです。,N5
+眼鏡,Glasses,Noun,眼鏡をかけています。,N5
+傘,Umbrella,Noun,傘を持って行きましょう。,N5
+鞄,Bag,Noun,鞄の中に財布があります。,N5
+靴,Shoes,Noun,新しい靴を履きます。,N5
+靴下,Socks,Noun,靴下を洗います。,N5
+帽子,Hat or cap,Noun,帽子をかぶります。,N5
+服,Clothes,Noun,服を着替えます。,N5
+洋服,Western clothes,Noun,デパートで洋服を買いました。,N5
+シャツ,Shirt,Noun,白いシャツを着ています。,N5
+ズボン,Trousers,Noun,このズボンは長いです。,N5
+スカート,Skirt,Noun,赤いスカートを履いています。,N5
+セーター,Sweater,Noun,冬はセーターを着ます。,N5
+コート,Coat,Noun,コートを脱いでください。,N5
+財布,Wallet,Noun,財布を忘れました。,N5
+お金,Money,Noun,お金がありません。,N5
+鍵,Key,Noun,鍵をなくしました。,N5
+箱,Box,Noun,箱の中に何がありますか。,N5
+袋,Bag or sack,Noun,袋はいりません。,N5
+学校,School,Noun,学校は八時に始まります。,N5
+大学,University,Noun,兄は大学で勉強しています。,N5
+教室,Classroom,Noun,教室に学生がいます。,N5
+学生,Student,Noun,私は学生です。,N5
+先生,Teacher,Noun,先生に質問します。,N5
+留学生,International student,Noun,彼はアメリカからの留学生です。,N5
+友達,Friend,Noun,友達と遊びます。,N5
+人,Person,Noun,あの人は誰ですか。,N5
+男,Man or male,Noun,男の人が立っています。,N5
+女,Woman or female,Noun,女の人が歌っています。,N5
+男の子,Boy,Noun,男の子が走っています。,N5
+女の子,Girl,Noun,女の子が泣いています。,N5
+子供,Child,Noun,子供が二人います。,N5
+大人,Adult,Noun,大人は千円です。,N5
+両親,Parents,Noun,両親は元気です。,N5
+兄弟,Siblings,Noun,兄弟がいますか。,N5
+おじいさん,Grandfather or old man,Noun,おじいさんは九十歳です。,N5
+おばあさん,Grandmother or old woman,Noun,おばあさんと散歩します。,N5
+おじさん,Uncle or middle-aged man,Noun,おじさんは大阪に住んでいます。,N5
+おばさん,Aunt or middle-aged woman,Noun,おばさんがお菓子をくれました。,N5
+奥さん,Someone else's wife,Noun,奥さんはお元気ですか。,N5
+名前,Name,Noun,お名前は何ですか。,N5
+体,Body,Noun,体に気をつけてください。,N5
+頭,Head,Noun,頭が痛いです。,N5
+顔,Face,Noun,顔を洗います。,N5
+目,Eye,Noun,目が痛いです。,N5
+耳,Ear,Noun,うさぎの耳は長いです。,N5
+口,Mouth,Noun,口を開けてください。,N5
+鼻,Nose,Noun,象の鼻は長いです。,N5
+歯,Tooth,Noun,毎晩歯を磨きます。,N5
+手,Hand,Noun,手を洗いましょう。,N5
+足,Foot or leg,Noun,足が疲れました。,N5
+お腹,Stomach or belly,Noun,お腹が空きました。,N5
+背,Height or back,Noun,兄は背が高いです。,N5
+声,Voice,Noun,大きい声で話してください。,N5
+病気,Illness,Noun,病気で学校を休みました。,N5
+薬,Medicine,Noun,薬を飲んでください。,N5
+医者,Doctor,Noun,医者に行きました。,N5
+水,Water,Noun,水を一杯ください。,N5
+お湯,Hot water,Noun,お湯を沸かします。,N5
+お酒,Alcohol or sake,Noun,父はお酒が好きです。,N5
+ビール,Beer,Noun,冷たいビールを飲みます。,N5
+コーヒー,Coffee,Noun,毎朝コーヒーを飲みます。,N5
+紅茶,Black tea,Noun,紅茶に砂糖を入れますか。,N5
+ジュース,Juice,Noun,オレンジジュースをください。,N5
+料理,Cooking or dish,Noun,母の料理は美味しいです。,N5
+朝ご飯,Breakfast,Noun,朝ご飯にパンを食べます。,N5
+昼ご飯,Lunch,Noun,昼ご飯を一緒に食べましょう。,N5
+晩ご飯,Dinner,Noun,晩ご飯は何ですか。,N5
+お弁当,Boxed lunch,Noun,お弁当を作りました。,N5
+お菓子,Sweets or snacks,Noun,子供はお菓子が好きです。,N5
+塩,Salt,Noun,塩を少し入れます。,N5
+砂糖,Sugar,Noun,砂糖はいりません。,N5
+醤油,Soy sauce,Noun,醤油をかけて食べます。,N5
+牛肉,Beef,Noun,牛肉は高いです。,N5
+豚肉,Pork,Noun,豚肉を焼きます。,N5
+鶏肉,Chicken meat,Noun,鶏肉が好きです。,N5
+茶碗,Rice bowl,Noun,茶碗にご飯を入れます。,N5
+皿,Plate or dish,Noun,皿を洗います。,N5
+箸,Chopsticks,Noun,箸で食べます。,N5
+コップ,Glass or cup,Noun,コップに水を入れます。,N5
+冷蔵庫,Refrigerator,Noun,冷蔵庫に牛乳があります。,N5
+銀行,Bank,Noun,銀行でお金を下ろします。,N5
+郵便局,Post office,Noun,郵便局で切手を買います。,N5
+交番,Police box,Noun,交番で道を聞きました。,N5
+喫茶店,Café,Noun,喫茶店でコーヒーを飲みます。,N5
+食堂,Cafeteria or dining hall,Noun,大学の食堂は安いです。,N5
+レストラン,Restaurant,Noun,レストランで食事をします。,N5
+ホテル,Hotel,Noun,駅の近くのホテルに泊まります。,N5
+デパート,Department store,Noun,デパートで靴を買いました。,N5
+八百屋,Greengrocer,Noun,八百屋で野菜を買います。,N5
+本屋,Bookstore,Noun,本屋で雑誌を買いました。,N5
+映画館,Movie theater,Noun,映画館は混んでいます。,N5
+大使館,Embassy,Noun,大使館へビザを取りに行きます。,N5
+建物,Building,Noun,あの建物は病院です。,N5
+仕事,Work or job,Noun,仕事は五時に終わります。,N5
+宿題,Homework,Noun,宿題を忘れました。,N5
+試験,Exam,Noun,明日は試験があります。,N5
+問題,Problem or question,Noun,この問題は難しいです。,N5
+質問,Question,Noun,質問がありますか。,N5
+答え,Answer,Noun,答えを書いてください。,N5
+言葉,Word or language,Noun,この言葉の意味が分かりません。,N5
+漢字,Kanji,Noun,漢字を練習します。,N5
+平仮名,Hiragana,Noun,平仮名で名前を書きます。,N5
+片仮名,Katakana,Noun,片仮名は難しいです。,N5
+英語,English language,Noun,英語を話せますか。,N5
+日本語,Japanese language,Noun,日本語は面白いです。,N5
+文,Sentence,Noun,文を読んでください。,N5
+意味,Meaning,Noun,これはどういう意味ですか。,N5
+話,Story or talk,Noun,面白い話を聞きました。,N5
+色,Color,Noun,何色が好きですか。,N5
+右,Right,Noun,右に曲がってください。,N5
+左,Left,Noun,左側を歩きます。,N5
+上,Above or on top,Noun,机の上に猫がいます。,N5
+下,Below or under,Noun,椅子の下に鞄があります。,N5
+前,Front or before,Noun,駅の前で待っています。,N5
+後ろ,Behind or back,Noun,後ろを見てください。,N5
+中,Inside or middle,Noun,箱の中は空です。,N5
+外,Outside,Noun,外で遊びましょう。,N5
+横,Side or beside,Noun,銀行の横に本屋があります。,N5
+隣,Next to or neighbor,Noun,隣の人は親切です。,N5
+近く,Nearby,Noun,近くにコンビニがあります。,N5
+東,East,Noun,太陽は東から出ます。,N5
+西,West,Noun,西の空が赤いです。,N5
+南,South,Noun,南の島へ行きたいです。,N5
+北,North,Noun,北海道は日本の北にあります。,N5
+所,Place,Noun,静かな所が好きです。,N5
+猫,Cat,Noun,猫が寝ています。,N5
+動物,Animal,Noun,どんな動物が好きですか。,N5
+切手,Postage stamp,Noun,切手を貼ってください。,N5
+葉書,Postcard,Noun,旅行先から葉書を送ります。,N5
+封筒,Envelope,Noun,封筒に手紙を入れます。,N5
+荷物,Luggage or package,Noun,荷物が重いです。,N5
+階段,Stairs,Noun,階段を上ります。,N5
+エレベーター,Elevator,Noun,エレベーターで五階へ行きます。,N5
+トイレ,Toilet or restroom,Noun,トイレはどこですか。,N5
+お風呂,Bath,Noun,毎晩お風呂に入ります。,N5
+シャワー,Shower,Noun,朝シャワーを浴びます。,N5
+ベッド,Bed,Noun,ベッドで寝ます。,N5
+電気,Electricity or light,Noun,電気を消してください。,N5
+食べる,To eat,Verb,朝ご飯を食べます。,N5
+飲む,To drink,Verb,水を飲みます。,N5
+見る,To see or watch,Verb,テレビを見ます。,N5
+聞く,To hear or ask,Verb,音楽を聞きます。,N5
+読む,To read,Verb,新聞を読みます。,N5
+書く,To write,Verb,手紙を書きます。,N5
+話す,To speak,Verb,日本語を話します。,N5
+言う,To say,Verb,もう一度言ってください。,N5
+思う,To think,Verb,明日は雨だと思います。,N5
+知る,To know,Verb,あの人を知っていますか。,N5
+分かる,To understand,Verb,日本語が少し分かります。,N5
+する,To do,Verb,宿題をします。,N5
+入る,To enter,Verb,部屋に入ります。,N5
+出る,To leave or go out,Verb,八時に家を出ます。,N5
+出かける,To go out,Verb,日曜日に出かけます。,N5
+起きる,To wake up,Verb,六時に起きます。,N5
+寝る,To sleep or go to bed,Verb,十一時に寝ます。,N5
+着る,To wear (upper body),Verb,セーターを着ます。,N5
+脱ぐ,To take off (clothes),Verb,靴を脱いでください。,N5
+履く,To wear (shoes or trousers),Verb,靴を履きます。,N5
+洗う,To wash,Verb,手を洗います。,N5
+浴びる,To bathe or shower,Verb,シャワーを浴びます。,N5
+歩く,To walk,Verb,駅まで歩きます。,N5
+走る,To run,Verb,公園を走ります。,N5
+泳ぐ,To swim,Verb,海で泳ぎます。,N5
+飛ぶ,To fly,Verb,鳥が飛んでいます。,N5
+乗る,To ride or get on,Verb,バスに乗ります。,N5
+降りる,To get off,Verb,次の駅で降ります。,N5
+止まる,To stop,Verb,電車が止まりました。,N5
+始まる,To begin,Verb,授業が始まります。,N5
+終わる,To end,Verb,映画が終わりました。,N5
+開ける,To open (something),Verb,窓を開けます。,N5
+閉める,To close (something),Verb,ドアを閉めます。,N5
+開く,To open,Verb,店は十時に開きます。,N5
+閉まる,To close or shut,Verb,銀行は三時に閉まります。,N5
+付ける,To turn on or attach,Verb,電気を付けます。,N5
+消す,To turn off or erase,Verb,テレビを消してください。,N5
+押す,To push,Verb,ボタンを押します。,N5
+引く,To pull,Verb,ドアを引いてください。,N5
+置く,To put or place,Verb,鞄を机の上に置きます。,N5
+取る,To take,Verb,塩を取ってください。,N5
+持つ,To hold or have,Verb,傘を持っていますか。,N5
+貸す,To lend,Verb,友達に本を貸します。,N5
+借りる,To borrow,Verb,図書館で本を借ります。,N5
+返す,To return (something),Verb,本を返します。,N5
+あげる,To give,Verb,妹にプレゼントをあげます。,N5
+もらう,To receive,Verb,父に時計をもらいました。,N5
+くれる,To give (to me),Verb,友達が花をくれました。,N5
+教える,To teach or tell,Verb,英語を教えています。,N5
+習う,To learn,Verb,ピアノを習っています。,N5
+覚える,To memorize or remember,Verb,漢字を覚えます。,N5
+忘れる,To forget,Verb,宿題を忘れました。,N5
+作る,To make,Verb,ケーキを作ります。,N5
+使う,To use,Verb,パソコンを使います。,N5
+住む,To live (reside),Verb,東京に住んでいます。,N5
+売る,To sell,Verb,この店は花を売っています。,N5
+払う,To pay,Verb,カードで払います。,N5
+呼ぶ,To call,Verb,タクシーを呼びます。,N5
+答える,To answer,Verb,質問に答えてください。,N5
+歌う,To sing,Verb,カラオケで歌います。,N5
+遊ぶ,To play,Verb,子供が公園で遊んでいます。,N5
+弾く,To play (an instrument),Verb,ギターを弾きます。,N5
+撮る,To take (a photo),Verb,写真を撮ります。,N5
+切る,To cut,Verb,ナイフで肉を切ります。,N5
+渡る,To cross,Verb,橋を渡ります。,N5
+曲がる,To turn,Verb,次の角を右に曲がります。,N5
+並ぶ,To line up,Verb,店の前に人が並んでいます。,N5
+並べる,To arrange or line up,Verb,本を棚に並べます。,N5
+立つ,To stand,Verb,駅の前に立っています。,N5
+座る,To sit,Verb,ここに座ってください。,N5
+死ぬ,To die,Verb,金魚が死にました。,N5
+生まれる,To be born,Verb,大阪で生まれました。,N5
+疲れる,To get tired,Verb,今日はとても疲れました。,N5
+困る,To be troubled,Verb,お金がなくて困っています。,N5
+頼む,To ask or request,Verb,友達に手伝いを頼みました。,N5
+掛ける,To hang or make (a call),Verb,母に電話を掛けます。,N5
+掛かる,To take (time or money),Verb,駅まで十分掛かります。,N5
+咲く,To bloom,Verb,桜が咲きました。,N5
+降る,To fall (rain or snow),Verb,雨が降っています。,N5
+鳴く,To cry (animal),Verb,鳥が鳴いています。,N5
+磨く,To brush or polish,Verb,歯を磨きます。,N5
+出す,To take out or send,Verb,手紙を出します。,N5
+入れる,To put in,Verb,コーヒーに砂糖を入れます。,N5
+始める,To begin (something),Verb,テストを始めます。,N5
+散歩する,To take a walk,Verb,犬と散歩します。,N5
+掃除する,To clean,Verb,部屋を掃除します。,N5
+洗濯する,To do laundry,Verb,日曜日に洗濯します。,N5
+結婚する,To get married,Verb,来年結婚します。,N5
+練習する,To practice,Verb,毎日ピアノを練習します。,N5
+旅行する,To travel,Verb,夏に北海道を旅行します。,N5
+大きい,Big,い-adjective,大きい家ですね。,N5
+小さい,Small,い-adjective,小さい犬を飼っています。,N5
+高い,Tall or expensive,い-adjective,この時計は高いです。,N5
+安い,Cheap,い-adjective,この店は安いです。,N5
+低い,Low or short,い-adjective,この机は低いです。,N5
+長い,Long,い-adjective,髪が長いです。,N5
+短い,Short,い-adjective,夏休みは短いです。,N5
+広い,Wide or spacious,い-adjective,広い部屋に住みたいです。,N5
+狭い,Narrow or cramped,い-adjective,この道は狭いです。,N5
+重い,Heavy,い-adjective,この鞄は重いです。,N5
+軽い,Light (weight),い-adjective,このパソコンは軽いです。,N5
+多い,Many or a lot,い-adjective,東京は人が多いです。,N5
+少ない,Few or little,い-adjective,この町は店が少ないです。,N5
+早い,Early,い-adjective,朝が早いです。,N5
+速い,Fast,い-adjective,新幹線は速いです。,N5
+遅い,Slow or late,い-adjective,バスが遅いです。,N5
+近い,Near,い-adjective,家は駅に近いです。,N5
+遠い,Far,い-adjective,学校は遠いです。,N5
+暑い,Hot (weather),い-adjective,今日は暑いですね。,N5
+寒い,Cold (weather),い-adjective,冬は寒いです。,N5
+暖かい,Warm,い-adjective,春は暖かいです。,N5
+涼しい,Cool,い-adjective,今日は涼しいです。,N5
+冷たい,Cold (to the touch),い-adjective,冷たい水を飲みたいです。,N5
+熱い,Hot (to the touch),い-adjective,このお茶は熱いです。,N5
+いい,Good,い-adjective,いい天気ですね。,N5
+悪い,Bad,い-adjective,天気が悪いです。,N5
+面白い,Interesting or funny,い-adjective,この本は面白いです。,N5
+つまらない,Boring,い-adjective,その映画はつまらなかったです。,N5
+難しい,Difficult,い-adjective,漢字は難しいです。,N5
+易しい,Easy,い-adjective,この問題は易しいです。,N5
+優しい,Kind or gentle,い-adjective,先生はとても優しいです。,N5
+忙しい,Busy,い-adjective,今週は忙しいです。,N5
+楽しい,Fun or enjoyable,い-adjective,旅行は楽しかったです。,N5
+美味しい,Delicious,い-adjective,このラーメンは美味しいです。,N5
+不味い,Tastes bad,い-adjective,このコーヒーは不味いです。,N5
+甘い,Sweet,い-adjective,このケーキは甘いです。,N5
+辛い,Spicy,い-adjective,カレーは辛いです。,N5
+明るい,Bright,い-adjective,この部屋は明るいです。,N5
+暗い,Dark,い-adjective,外はもう暗いです。,N5
+強い,Strong,い-adjective,彼は力が強いです。,N5
+弱い,Weak,い-adjective,私はお酒に弱いです。,N5
+痛い,Painful,い-adjective,お腹が痛いです。,N5
+若い,Young,い-adjective,あの先生は若いです。,N5
+汚い,Dirty,い-adjective,部屋が汚いです。,N5
+可愛い,Cute,い-adjective,この猫は可愛いです。,N5
+黒い,Black,い-adjective,黒い靴を履いています。,N5
+白い,White,い-adjective,白い車を買いました。,N5
+赤い,Red,い-adjective,赤いりんごを食べました。,N5
+青い,Blue,い-adjective,海が青いです。,N5
+黄色い,Yellow,い-adjective,黄色い花が咲いています。,N5
+太い,Thick or fat,い-adjective,この木は太いです。,N5
+細い,Thin or slender,い-adjective,この道は細いです。,N5
+薄い,Thin or weak (taste),い-adjective,このお茶は薄いです。,N5
+厚い,Thick,い-adjective,この辞書は厚いです。,N5
+丸い,Round,い-adjective,月が丸いです。,N5
+欲しい,Wanted or desired,い-adjective,新しいスマホが欲しいです。,N5
+危ない,Dangerous,い-adjective,道で遊ぶのは危ないです。,N5
+うるさい,Noisy or annoying,い-adjective,隣の部屋がうるさいです。,N5
+静か,Quiet,な-adjective,図書館は静かです。,N5
+賑やか,Lively,な-adjective,この町は賑やかです。,N5
+綺麗,Pretty or clean,な-adjective,部屋が綺麗です。,N5
+元気,Healthy or energetic,な-adjective,お元気ですか。,N5
+有名,Famous,な-adjective,このお寺は有名です。,N5
+親切,Kind,な-adjective,店員さんは親切でした。,N5
+便利,Convenient,な-adjective,スマホは便利です。,N5
+不便,Inconvenient,な-adjective,この町は交通が不便です。,N5
+簡単,Simple or easy,な-adjective,このテストは簡単でした。,N5
+大切,Important or precious,な-adjective,家族は大切です。,N5
+大丈夫,All right or okay,な-adjective,大丈夫ですか。,N5
+好き,Liked,な-adjective,私は寿司が好きです。,N5
+嫌い,Disliked,な-adjective,私は虫が嫌いです。,N5
+上手,Skillful,な-adjective,彼は料理が上手です。,N5
+下手,Unskillful,な-adjective,私は歌が下手です。,N5
+暇,Free time or not busy,な-adjective,明日は暇です。,N5
+大変,Tough or terrible,な-adjective,仕事が大変です。,N5
+色々,Various,な-adjective,色々な国へ行きました。,N5
+同じ,Same,な-adjective,私たちは同じ学校です。,N5
+よく,Often or well,Adverb,よく映画を見ます。,N5
+時々,Sometimes,Adverb,時々料理をします。,N5
+いつも,Always,Adverb,いつも七時に起きます。,N5
+全然,Not at all,Adverb,全然分かりません。,N5
+とても,Very,Adverb,とても嬉しいです。,N5
+少し,A little,Adverb,日本語が少し話せます。,N5
+ちょっと,A bit or a moment,Adverb,ちょっと待ってください。,N5
+たくさん,Many or a lot,Adverb,本をたくさん読みました。,N5
+もう,Already or more,Adverb,もう宿題をしました。,N5
+まだ,Still or not yet,Adverb,まだ食べていません。,N5
+すぐ,Immediately,Adverb,すぐ行きます。,N5
+ゆっくり,Slowly,Adverb,ゆっくり話してください。,N5
+一緒に,Together,Adverb,一緒に行きましょう。,N5
+一番,Most or number one,Adverb,夏が一番好きです。,N5
+また,Again,Adverb,また来てください。,N5
+本当に,Really,Adverb,本当にありがとう。,N5
+だんだん,Gradually,Adverb,だんだん寒くなりました。,N5
+初めて,For the first time,Adverb,初めて日本へ来ました。,N5
+多分,Probably,Adverb,多分明日は雨です。,N5
+もっと,More,Adverb,もっと食べてください。,N5
+まっすぐ,Straight,Adverb,まっすぐ行ってください。,N5
+私,I or me,Pronoun,私は学生です。,N5
+あなた,You,Pronoun,あなたの名前は何ですか。,N5
+彼,He or boyfriend,Pronoun,彼は医者です。,N5
+彼女,She or girlfriend,Pronoun,彼女は先生です。,N5
+誰,Who,Pronoun,あの人は誰ですか。,N5
+何,What,Pronoun,これは何ですか。,N5
+どこ,Where,Pronoun,トイレはどこですか。,N5
+いつ,When,Pronoun,誕生日はいつですか。,N5
+どう,How,Adverb,日本はどうですか。,N5
+どうして,Why,Adverb,どうして遅れたのですか。,N5
+これ,This (thing),Pronoun,これは私の本です。,N5
+それ,That (thing near you),Pronoun,それは何ですか。,N5
+あれ,That (thing over there),Pronoun,あれは富士山です。,N5
+ここ,Here,Pronoun,ここは駅です。,N5
+そこ,There,Pronoun,そこに座ってください。,N5
+あそこ,Over there,Pronoun,あそこに銀行があります。,N5
+皆さん,Everyone,Pronoun,皆さん、おはようございます。,N5
+そして,And then,Conjunction,朝ご飯を食べました。そして学校へ行きました。,N5
+でも,But,Conjunction,疲れました。でも楽しかったです。,N5
+だから,So or therefore,Conjunction,雨です。だから家にいます。,N5
+それから,After that,Conjunction,宿題をしました。それから寝ました。,N5
+おはようございます,Good morning,Expression,先生、おはようございます。,N5
+こんにちは,Hello or good afternoon,Expression,こんにちは、元気ですか。,N5
+こんばんは,Good evening,Expression,こんばんは、いい夜ですね。,N5
+さようなら,Goodbye,Expression,先生、さようなら。,N5
+ありがとう,Thank you,Expression,手伝ってくれてありがとう。,N5
+すみません,Excuse me or sorry,Expression,すみません、駅はどこですか。,N5
+お願いします,Please,Expression,コーヒーをお願いします。,N5
+いただきます,Said before eating,Expression,いただきます。美味しそうですね。,N5
+ごちそうさまでした,Said after eating,Expression,ごちそうさまでした。美味しかったです。,N5
+一つ,One (thing),Counter,りんごを一つください。,N5
+二つ,Two (things),Counter,卵を二つ買いました。,N5
+三つ,Three (things),Counter,ケーキを三つ食べました。,N5
+四つ,Four (things),Counter,箱が四つあります。,N5
+五つ,Five (things),Counter,みかんを五つください。,N5
+一人,One person or alone,Counter,一人で旅行します。,N5
+二人,Two people,Counter,二人で映画を見ました。,N5
+心,Heart or mind,Noun,心から感謝しています。,N4
+気持ち,Feeling,Noun,気持ちがいいです。,N4
+気分,Mood,Noun,今日は気分がいいです。,N4
+趣味,Hobby,Noun,趣味は読書です。,N4
+興味,Interest,Noun,日本の歴史に興味があります。,N4
+経験,Experience,Noun,海外で働いた経験があります。,N4
+意見,Opinion,Noun,あなたの意見を聞かせてください。,N4
+理由,Reason,Noun,遅れた理由を説明してください。,N4
+説明,Explanation,Noun,先生の説明は分かりやすいです。,N4
+準備,Preparation,Noun,旅行の準備をしています。,N4
+予定,Plan or schedule,Noun,週末の予定はありますか。,N4
+計画,Plan or project,Noun,夏休みの計画を立てました。,N4
+約束,Promise or appointment,Noun,友達との約束を忘れました。,N4
+用事,Errand or business,Noun,今日は用事があります。,N4
+会話,Conversation,Noun,日本語の会話を練習します。,N4
+発音,Pronunciation,Noun,彼の発音はとても綺麗です。,N4
+文法,Grammar,Noun,日本語の文法は難しいです。,N4
+翻訳,Translation,Noun,この本の翻訳をしています。,N4
+研究,Research,Noun,大学で研究をしています。,N4
+専門,Specialty or major,Noun,専門は経済です。,N4
+授業,Class or lesson,Noun,授業は九時からです。,N4
+教育,Education,Noun,子供の教育は大切です。,N4
+卒業,Graduation,Noun,来年卒業の予定です。,N4
+入学,Entering a school,Noun,四月に入学式があります。,N4
+試合,Match or game,Noun,サッカーの試合を見ました。,N4
+運動,Exercise,Noun,毎日運動をしています。,N4
+水泳,Swimming,Noun,水泳が得意です。,N4
+世界,World,Noun,世界を旅行したいです。,N4
+社会,Society,Noun,社会の問題について考えます。,N4
+政治,Politics,Noun,政治に興味がありません。,N4
+経済,Economy,Noun,日本の経済を勉強しています。,N4
+産業,Industry,Noun,この町の産業は漁業です。,N4
+技術,Technology or skill,Noun,日本の技術は有名です。,N4
+文化,Culture,Noun,日本の文化が好きです。,N4
+歴史,History,Noun,京都は歴史がある町です。,N4
+科学,Science,Noun,科学の授業は面白いです。,N4
+法律,Law,Noun,法律を守りましょう。,N4
+生活,Life or daily living,Noun,東京の生活に慣れました。,N4
+習慣,Habit or custom,Noun,早起きの習慣があります。,N4
+規則,Rule,Noun,学校の規則を守ってください。,N4
+季節,Season,Noun,どの季節が好きですか。,N4
+景色,Scenery,Noun,山の上の景色は綺麗です。,N4
+空気,Air,Noun,田舎の空気は美味しいです。,N4
+自然,Nature,Noun,自然の中で生活したいです。,N4
+植物,Plant,Noun,部屋に植物を置きます。,N4
+虫,Insect or bug,Noun,虫が嫌いです。,N4
+島,Island,Noun,小さな島に住んでいます。,N4
+森,Forest,Noun,森の中を歩きました。,N4
+林,Grove or woods,Noun,家の後ろに林があります。,N4
+石,Stone,Noun,石を投げないでください。,N4
+砂,Sand,Noun,靴に砂が入りました。,N4
+火事,Fire (disaster),Noun,昨日近所で火事がありました。,N4
+地震,Earthquake,Noun,日本は地震が多いです。,N4
+台風,Typhoon,Noun,台風が来ています。,N4
+事故,Accident,Noun,事故で電車が遅れました。,N4
+故障,Breakdown or malfunction,Noun,エアコンが故障しています。,N4
+交通,Traffic or transportation,Noun,東京は交通が便利です。,N4
+信号,Traffic light,Noun,信号が赤です。,N4
+道具,Tool,Noun,料理の道具を買いました。,N4
+機械,Machine,Noun,この機械の使い方が分かりません。,N4
+材料,Ingredients or materials,Noun,ケーキの材料を買います。,N4
+品物,Goods or article,Noun,この店の品物は安いです。,N4
+値段,Price,Noun,この服の値段はいくらですか。,N4
+料金,Fee or charge,Noun,タクシーの料金を払います。,N4
+お釣り,Change (money),Noun,お釣りをもらうのを忘れました。,N4
+給料,Salary,Noun,給料は月末にもらいます。,N4
+会場,Venue,Noun,会場は駅の近くです。,N4
+場所,Place or location,Noun,待ち合わせの場所はどこですか。,N4
+住所,Address,Noun,ここに住所を書いてください。,N4
+近所,Neighborhood,Noun,近所にスーパーがあります。,N4
+田舎,Countryside or hometown,Noun,夏休みに田舎へ帰ります。,N4
+空港,Airport,Noun,空港まで車で一時間です。,N4
+港,Harbor or port,Noun,港に船が止まっています。,N4
+工場,Factory,Noun,父は工場で働いています。,N4
+美術館,Art museum,Noun,美術館で絵を見ました。,N4
+博物館,Museum,Noun,博物館で恐竜を見ました。,N4
+神社,Shinto shrine,Noun,お正月に神社へ行きます。,N4
+寺,Buddhist temple,Noun,京都には寺がたくさんあります。,N4
+教会,Church,Noun,日曜日に教会へ行きます。,N4
+歯医者,Dentist,Noun,歯医者に行かなければなりません。,N4
+看護師,Nurse,Noun,姉は看護師です。,N4
+警察,Police,Noun,警察に電話しました。,N4
+社長,Company president,Noun,社長は今会議中です。,N4
+部長,Department manager,Noun,部長に報告します。,N4
+店員,Store clerk,Noun,店員に道を聞きました。,N4
+客,Guest or customer,Noun,今日は客が多いです。,N4
+息子,Son,Noun,息子は小学生です。,N4
+娘,Daughter,Noun,娘はピアノが上手です。,N4
+夫,Husband,Noun,夫は料理が得意です。,N4
+妻,Wife,Noun,妻と旅行に行きます。,N4
+赤ちゃん,Baby,Noun,赤ちゃんが寝ています。,N4
+人口,Population,Noun,東京の人口は多いです。,N4
+答案,Answer sheet,Noun,答案に名前を書いてください。,N4
+番号,Number,Noun,電話番号を教えてください。,N4
+数,Number or amount,Noun,学生の数が増えました。,N4
+番組,TV or radio program,Noun,好きなテレビ番組は何ですか。,N4
+ニュース,News,Noun,毎朝ニュースを見ます。,N4
+小説,Novel,Noun,小説を読むのが好きです。,N4
+漫画,Manga or comics,Noun,弟は漫画をよく読みます。,N4
+お祭り,Festival,Noun,夏にお祭りがあります。,N4
+お土産,Souvenir,Noun,家族にお土産を買いました。,N4
+お見舞い,Visiting a sick person,Noun,友達のお見舞いに行きました。,N4
+お礼,Thanks or gratitude,Noun,お礼の手紙を書きました。,N4
+お祝い,Celebration or gift,Noun,結婚のお祝いを送りました。,N4
+贈り物,Gift,Noun,誕生日の贈り物を選びます。,N4
+招待,Invitation,Noun,パーティーの招待を受けました。,N4
+会議,Meeting,Noun,午後に会議があります。,N4
+連絡,Contact,Noun,後で連絡をください。,N4
+予約,Reservation,Noun,レストランの予約をしました。,N4
+注意,Caution or attention,Noun,車に注意してください。,N4
+相談,Consultation,Noun,先生に相談があります。,N4
+返事,Reply,Noun,メールの返事を書きます。,N4
+世話,Care or looking after,Noun,犬の世話をしています。,N4
+留守,Being away from home,Noun,父は今留守です。,N4
+引っ越し,Moving house,Noun,来週引っ越しをします。,N4
+食事,Meal,Noun,一緒に食事をしませんか。,N4
+味,Taste or flavor,Noun,このスープは味が薄いです。,N4
+匂い,Smell,Noun,いい匂いがしますね。,N4
+音,Sound,Noun,変な音が聞こえます。,N4
+力,Power or strength,Noun,力を合わせて頑張りましょう。,N4
+形,Shape,Noun,この石は面白い形です。,N4
+大きさ,Size,Noun,箱の大きさを測ります。,N4
+間,Between or interval,Noun,銀行と郵便局の間に本屋があります。,N4
+途中,On the way,Noun,学校へ行く途中で友達に会いました。,N4
+最初,First or beginning,Noun,最初は難しかったです。,N4
+最後,Last or end,Noun,最後まで頑張ってください。,N4
+以上,More than,Noun,二十歳以上の人はお酒が飲めます。,N4
+以下,Less than,Noun,六歳以下は無料です。,N4
+以外,Except,Noun,日曜日以外は働いています。,N4
+今度,Next time or this time,Noun,今度一緒に飲みに行きましょう。,N4
+この間,The other day,Noun,この間の旅行は楽しかったです。,N4
+最近,Recently,Noun,最近忙しいです。,N4
+将来,Future,Noun,将来医者になりたいです。,N4
+昔,Long ago,Noun,昔ここに大きな木がありました。,N4
+夢,Dream,Noun,夢は歌手になることです。,N4
+本当,Truth or real,Noun,それは本当ですか。,N4
+嘘,Lie,Noun,嘘をつかないでください。,N4
+冗談,Joke,Noun,それは冗談です。,N4
+都合,Convenience or circumstances,Noun,明日の都合はどうですか。,N4
+具合,Condition or health,Noun,体の具合はどうですか。,N4
+熱,Fever or heat,Noun,熱が三十八度あります。,N4
+怪我,Injury,Noun,足に怪我をしました。,N4
+年寄り,Elderly person,Noun,電車でお年寄りに席を譲りました。,N4
+髪,Hair,Noun,髪を短く切りました。,N4
+首,Neck,Noun,首が痛いです。,N4
+指,Finger,Noun,指を切ってしまいました。,N4
+腕,Arm,Noun,腕が疲れました。,N4
+背中,Back (body),Noun,背中がかゆいです。,N4
+糸,Thread,Noun,針に糸を通します。,N4
+鏡,Mirror,Noun,鏡を見て髪を直します。,N4
+枝,Branch,Noun,木の枝に鳥が止まっています。,N4
+葉,Leaf,Noun,秋になると葉の色が変わります。,N4
+草,Grass,Noun,庭の草を取ります。,N4
+米,Rice (uncooked),Noun,米を洗います。,N4
+押し入れ,Closet,Noun,布団を押し入れにしまいます。,N4
+布団,Futon,Noun,布団を干します。,N4
+畳,Tatami mat,Noun,この部屋は六畳です。,N4
+屋上,Rooftop,Noun,屋上から町が見えます。,N4
+受付,Reception desk,Noun,受付で名前を言ってください。,N4
+売り場,Sales floor or counter,Noun,靴の売り場は三階です。,N4
+コンビニ,Convenience store,Noun,コンビニでお弁当を買います。,N4
+スーパー,Supermarket,Noun,スーパーで野菜を買います。,N4
+パソコン,Personal computer,Noun,パソコンでレポートを書きます。,N4
+メール,Email,Noun,メールを送りました。,N4
+インターネット,Internet,Noun,インターネットで調べます。,N4
+アルバイト,Part-time job,Noun,コンビニでアルバイトをしています。,N4
+ガソリン,Gasoline,Noun,ガソリンが高くなりました。,N4
+ガラス,Glass (material),Noun,ガラスが割れています。,N4
+ボタン,Button,Noun,このボタンを押してください。,N4
+レポート,Report,Noun,明日までにレポートを出します。,N4
+集める,To collect,Verb,切手を集めています。,N4
+集まる,To gather,Verb,駅の前に人が集まっています。,N4
+決める,To decide,Verb,旅行の日を決めました。,N4
+決まる,To be decided,Verb,会議の日が決まりました。,N4
+変える,To change (something),Verb,髪型を変えました。,N4
+変わる,To change,Verb,町の様子が変わりました。,N4
+届ける,To deliver,Verb,荷物を届けます。,N4
+届く,To arrive or reach,Verb,手紙が届きました。,N4
+調べる,To investigate or look up,Verb,辞書で意味を調べます。,N4
+比べる,To compare,Verb,二つの値段を比べます。,N4
+選ぶ,To choose,Verb,好きな色を選んでください。,N4
+運ぶ,To carry,Verb,荷物を部屋に運びます。,N4
+動く,To move,Verb,時計が動きません。,N4
+続ける,To continue (something),Verb,日本語の勉強を続けます。,N4
+続く,To continue,Verb,雨が三日続いています。,N4
+止める,To stop (something),Verb,車を止めてください。,N4
+生きる,To live,Verb,百歳まで生きたいです。,N4
+育てる,To raise or grow,Verb,野菜を育てています。,N4
+増える,To increase,Verb,外国人の観光客が増えました。,N4
+減る,To decrease,Verb,体重が減りました。,N4
+上がる,To rise or go up,Verb,値段が上がりました。,N4
+下がる,To fall or go down,Verb,熱が下がりました。,N4
+落ちる,To fall or drop,Verb,木から葉が落ちます。,N4
+落とす,To drop,Verb,財布を落としました。,N4
+壊す,To break (something),Verb,おもちゃを壊してしまいました。,N4
+壊れる,To be broken,Verb,パソコンが壊れました。,N4
+割れる,To crack or split,Verb,コップが割れました。,N4
+汚れる,To get dirty,Verb,服が汚れました。,N4
+直す,To fix or correct,Verb,間違いを直してください。,N4
+治る,To heal or recover,Verb,風邪が治りました。,N4
+起こす,To wake someone up,Verb,明日六時に起こしてください。,N4
+起こる,To happen,Verb,何が起こったのですか。,N4
+戻る,To return or go back,Verb,すぐ戻ります。,N4
+迎える,To welcome or pick up,Verb,空港へ友達を迎えに行きます。,N4
+送る,To send,Verb,写真をメールで送ります。,N4
+見つける,To find,Verb,いいアパートを見つけました。,N4
+見つかる,To be found,Verb,鍵が見つかりました。,N4
+探す,To look for,Verb,眼鏡を探しています。,N4
+拾う,To pick up,Verb,道で財布を拾いました。,N4
+捨てる,To throw away,Verb,ゴミを捨ててください。,N4
+投げる,To throw,Verb,ボールを投げます。,N4
+触る,To touch,Verb,作品に触らないでください。,N4
+包む,To wrap,Verb,プレゼントを紙で包みます。,N4
+片付ける,To tidy up,Verb,部屋を片付けます。,N4
+慣れる,To get used to,Verb,日本の生活に慣れました。,N4
+間に合う,To be in time,Verb,電車に間に合いました。,N4
+遅れる,To be late,Verb,会議に遅れました。,N4
+急ぐ,To hurry,Verb,急いでください。,N4
+手伝う,To help,Verb,母の料理を手伝います。,N4
+助ける,To help or save,Verb,困っている人を助けます。,N4
+喜ぶ,To be glad,Verb,母はプレゼントを喜びました。,N4
+怒る,To get angry,Verb,父は怒っています。,N4
+泣く,To cry,Verb,赤ちゃんが泣いています。,N4
+笑う,To laugh or smile,Verb,みんなが笑いました。,N4
+驚く,To be surprised,Verb,そのニュースに驚きました。,N4
+心配する,To worry,Verb,母が心配しています。,N4
+安心する,To feel relieved,Verb,無事に着いて安心しました。,N4
+謝る,To apologize,Verb,遅れたことを謝りました。,N4
+褒める,To praise,Verb,先生に褒められました。,N4
+叱る,To scold,Verb,子供を叱りました。,N4
+考える,To think or consider,Verb,将来のことを考えています。,N4
+感じる,To feel,Verb,秋の風を感じます。,N4
+信じる,To believe,Verb,あなたを信じています。,N4
+頑張る,To do one's best,Verb,試験を頑張ります。,N4
+申す,To say (humble),Verb,田中と申します。,N4
+参る,To go or come (humble),Verb,明日またこちらに参ります。,N4
+伺う,To visit or ask (humble),Verb,明日お宅に伺います。,N4
+いらっしゃる,To be or come (honorific),Verb,先生はいらっしゃいますか。,N4
+おっしゃる,To say (honorific),Verb,先生がそうおっしゃいました。,N4
+召し上がる,To eat or drink (honorific),Verb,どうぞ召し上がってください。,N4
+ご覧になる,To see (honorific),Verb,この写真をご覧になりましたか。,N4
+致す,To do (humble),Verb,よろしくお願い致します。,N4
+差し上げる,To give (humble),Verb,先生に花を差し上げました。,N4
+いただく,To receive (humble),Verb,先生に本をいただきました。,N4
+くださる,To give (honorific),Verb,先生が辞書をくださいました。,N4
+招待する,To invite,Verb,友達をパーティーに招待します。,N4
+紹介する,To introduce,Verb,友達を紹介します。,N4
+案内する,To guide or show around,Verb,町を案内しましょう。,N4
+連絡する,To contact,Verb,着いたら連絡します。,N4
+予約する,To reserve,Verb,ホテルを予約しました。,N4
+相談する,To consult,Verb,両親に相談します。,N4
+説明する,To explain,Verb,使い方を説明します。,N4
+準備する,To prepare,Verb,会議の資料を準備します。,N4
+用意する,To get ready,Verb,お弁当を用意しました。,N4
+出発する,To depart,Verb,バスは九時に出発します。,N4
+到着する,To arrive,Verb,飛行機が到着しました。,N4
+運転する,To drive,Verb,車を運転します。,N4
+合う,To fit or match,Verb,この靴はサイズが合いません。,N4
+似る,To resemble,Verb,私は母に似ています。,N4
+足りる,To be enough,Verb,お金が足りません。,N4
+過ぎる,To pass or exceed,Verb,もう十時を過ぎました。,N4
+済む,To be finished,Verb,用事が済みました。,N4
+冷える,To get cold,Verb,夜は冷えますね。,N4
+焼く,To bake or grill,Verb,魚を焼きます。,N4
+焼ける,To be baked or grilled,Verb,パンが焼けました。,N4
+沸く,To boil,Verb,お湯が沸きました。,N4
+沸かす,To boil (something),Verb,お湯を沸かします。,N4
+植える,To plant,Verb,庭に花を植えます。,N4
+建てる,To build,Verb,新しい家を建てます。,N4
+飾る,To decorate,Verb,部屋に花を飾ります。,N4
+光る,To shine,Verb,星が光っています。,N4
+揺れる,To shake or sway,Verb,地震で家が揺れました。,N4
+倒れる,To fall over,Verb,風で木が倒れました。,N4
+滑る,To slip or slide,Verb,雪の道で滑りました。,N4
+踊る,To dance,Verb,パーティーで踊りました。,N4
+眠る,To sleep,Verb,赤ちゃんがよく眠っています。,N4
+祈る,To pray,Verb,合格を祈っています。,N4
+勝つ,To win,Verb,試合に勝ちました。,N4
+負ける,To lose,Verb,試合に負けました。,N4
+貼る,To stick or paste,Verb,壁にポスターを貼ります。,N4
+訪ねる,To visit,Verb,昔の先生を訪ねました。,N4
+尋ねる,To ask or inquire,Verb,駅員に道を尋ねました。,N4
+受ける,To take (an exam) or receive,Verb,来月試験を受けます。,N4
+写す,To copy or photograph,Verb,黒板の字をノートに写します。,N4
+移る,To move or transfer,Verb,新しい部屋に移りました。,N4
+美しい,Beautiful,い-adjective,美しい景色ですね。,N4
+恥ずかしい,Embarrassing or shy,い-adjective,人の前で歌うのは恥ずかしいです。,N4
+嬉しい,Happy or glad,い-adjective,会えて嬉しいです。,N4
+悲しい,Sad,い-adjective,悲しい映画を見ました。,N4
+寂しい,Lonely,い-adjective,一人で寂しいです。,N4
+珍しい,Rare or unusual,い-adjective,それは珍しい花です。,N4
+苦しい,Painful or difficult,い-adjective,息が苦しいです。,N4
+正しい,Correct,い-adjective,正しい答えを選んでください。,N4
+細かい,Fine or detailed,い-adjective,細かいお金がありません。,N4
+柔らかい,Soft,い-adjective,このパンは柔らかいです。,N4
+硬い,Hard or stiff,い-adjective,この肉は硬いです。,N4
+浅い,Shallow,い-adjective,この川は浅いです。,N4
+深い,Deep,い-adjective,この湖は深いです。,N4
+眠い,Sleepy,い-adjective,今日はとても眠いです。,N4
+怖い,Scary or afraid,い-adjective,犬が怖いです。,N4
+酷い,Terrible or cruel,い-adjective,酷い雨ですね。,N4
+素晴らしい,Wonderful,い-adjective,素晴らしい演奏でした。,N4
+厳しい,Strict or severe,い-adjective,父はとても厳しいです。,N4
+親しい,Close or intimate,い-adjective,彼とは親しい友達です。,N4
+懐かしい,Nostalgic,い-adjective,この歌は懐かしいです。,N4
+丁寧,Polite or careful,な-adjective,彼女は丁寧に話します。,N4
+熱心,Eager or enthusiastic,な-adjective,彼は熱心に勉強しています。,N4
+真面目,Serious or diligent,な-adjective,兄は真面目な人です。,N4
+失礼,Rude,な-adjective,それは失礼ですよ。,N4
+残念,Regrettable or too bad,な-adjective,行けなくて残念です。,N4
+特別,Special,な-adjective,今日は特別な日です。,N4
+必要,Necessary,な-adjective,パスポートが必要です。,N4
+無理,Impossible or unreasonable,な-adjective,無理をしないでください。,N4
+自由,Free or freedom,な-adjective,自由な時間が欲しいです。,N4
+安全,Safe,な-adjective,この町は安全です。,N4
+危険,Dangerous,な-adjective,この川で泳ぐのは危険です。,N4
+確か,Certain or sure,な-adjective,それは確かな情報です。,N4
+適当,Suitable or random,な-adjective,適当な言葉が見つかりません。,N4
+複雑,Complicated,な-adjective,この問題は複雑です。,N4
+十分,Enough or sufficient,な-adjective,時間は十分あります。,N4
+立派,Splendid or fine,な-adjective,立派な建物ですね。,N4
+得意,Good at,な-adjective,私は数学が得意です。,N4
+苦手,Bad at or dislike,な-adjective,私は運動が苦手です。,N4
+大事,Important,な-adjective,大事な話があります。,N4
+急,Sudden or urgent,な-adjective,急な用事ができました。,N4
+きっと,Surely,Adverb,きっと合格しますよ。,N4
+必ず,Certainly or without fail,Adverb,必ず連絡します。,N4
+是非,By all means,Adverb,是非遊びに来てください。,N4
+なかなか,Quite or not easily,Adverb,バスがなかなか来ません。,N4
+ずっと,All the time or much more,Adverb,ずっと待っていました。,N4
+特に,Especially,Adverb,特に問題はありません。,N4
+急に,Suddenly,Adverb,急に雨が降り出しました。,N4
+実は,Actually,Adverb,実は明日引っ越します。,N4
+大抵,Usually,Adverb,大抵七時に起きます。,N4
+殆ど,Almost or hardly,Adverb,宿題は殆ど終わりました。,N4
+随分,Considerably,Adverb,随分寒くなりましたね。,N4
+しっかり,Firmly or properly,Adverb,しっかり勉強してください。,N4
+はっきり,Clearly,Adverb,はっきり言ってください。,N4
+一生懸命,With all one's effort,Adverb,一生懸命働きます。,N4
+やっと,Finally,Adverb,やっと宿題が終わりました。,N4
+決して,Never,Adverb,決して諦めません。,N4
+もうすぐ,Soon,Adverb,もうすぐ夏休みです。,N4
+さっき,A little while ago,Adverb,さっき駅で先生に会いました。,N4
+そろそろ,Soon or about time,Adverb,そろそろ帰りましょう。,N4
+まず,First of all,Adverb,まず手を洗ってください。,N4
+もし,If,Adverb,もし雨なら行きません。,N4
+しばらく,For a while,Adverb,しばらく休みます。,N4
+できるだけ,As much as possible,Adverb,できるだけ早く来てください。,N4
+すっかり,Completely,Adverb,すっかり忘れていました。,N4
+けれども,However,Conjunction,高いけれども買いました。,N4
+それに,Moreover,Conjunction,この店は安いです。それに美味しいです。,N4
+それで,And so,Conjunction,寝坊しました。それで遅れました。,N4
+すると,Then or thereupon,Conjunction,ボタンを押しました。すると音楽が鳴りました。,N4
+または,Or,Conjunction,ペンまたは鉛筆で書いてください。,N4
+状況,Situation,Noun,今の状況を説明してください。,N3
+状態,Condition or state,Noun,車の状態はいいです。,N3
+関係,Relationship,Noun,二人の関係はいいです。,N3
+影響,Influence,Noun,台風の影響で電車が止まりました。,N3
+効果,Effect,Noun,この薬は効果があります。,N3
+結果,Result,Noun,試験の結果が出ました。,N3
+原因,Cause,Noun,事故の原因を調べています。,N3
+目的,Purpose,Noun,旅行の目的は何ですか。,N3
+目標,Goal or target,Noun,今年の目標を決めました。,N3
+方法,Method,Noun,いい方法を考えましょう。,N3
+内容,Content,Noun,手紙の内容を教えてください。,N3
+情報,Information,Noun,インターネットで情報を集めます。,N3
+記事,Article,Noun,新聞の記事を読みました。,N3
+放送,Broadcast,Noun,試合は夜に放送されます。,N3
+広告,Advertisement,Noun,雑誌に広告を出します。,N3
+価格,Price,Noun,野菜の価格が上がっています。,N3
+費用,Cost or expense,Noun,旅行の費用はいくらですか。,N3
+収入,Income,Noun,収入が増えました。,N3
+利益,Profit,Noun,会社の利益が減りました。,N3
+契約,Contract,Noun,新しい契約を結びました。,N3
+責任,Responsibility,Noun,それは私の責任です。,N3
+権利,Right (entitlement),Noun,誰にでも意見を言う権利があります。,N3
+自信,Self-confidence,Noun,日本語に自信があります。,N3
+能力,Ability,Noun,彼には高い能力があります。,N3
+才能,Talent,Noun,彼女は音楽の才能があります。,N3
+性格,Personality,Noun,姉は明るい性格です。,N3
+態度,Attitude,Noun,彼の態度は失礼です。,N3
+表情,Facial expression,Noun,彼女は嬉しそうな表情をしています。,N3
+印象,Impression,Noun,日本の第一印象はどうでしたか。,N3
+感情,Emotion,Noun,感情を顔に出さないようにします。,N3
+感謝,Gratitude,Noun,皆さんに感謝しています。,N3
+希望,Hope or wish,Noun,希望を持ってください。,N3
+想像,Imagination,Noun,それは想像以上でした。,N3
+記憶,Memory,Noun,子供の頃の記憶があまりありません。,N3
+現在,Present time,Noun,現在の気温は二十度です。,N3
+過去,Past,Noun,過去のことは忘れましょう。,N3
+未来,Future,Noun,未来の生活を想像します。,N3
+以前,Before or formerly,Noun,以前ここに住んでいました。,N3
+全体,Whole or entire,Noun,クラス全体で話し合いました。,N3
+部分,Part or portion,Noun,この部分が分かりません。,N3
+中心,Center,Noun,町の中心に駅があります。,N3
+周り,Surroundings,Noun,周りの人に聞いてみます。,N3
+程度,Degree or extent,Noun,どの程度分かりますか。,N3
+割合,Ratio or proportion,Noun,女性の割合が増えています。,N3
+平均,Average,Noun,クラスの平均点は七十点です。,N3
+数字,Number or figure,Noun,この数字は正しいですか。,N3
+量,Quantity,Noun,ご飯の量が多いです。,N3
+種類,Kind or type,Noun,色々な種類の花があります。,N3
+温度,Temperature,Noun,部屋の温度を上げてください。,N3
+気温,Air temperature,Noun,今日の気温は三十度です。,N3
+環境,Environment,Noun,環境を守ることは大切です。,N3
+資源,Resources,Noun,日本は資源が少ないです。,N3
+地球,Earth,Noun,地球を大切にしましょう。,N3
+宇宙,Universe or space,Noun,宇宙へ行ってみたいです。,N3
+太陽,Sun,Noun,太陽が沈みます。,N3
+星,Star,Noun,夜空に星がたくさん見えます。,N3
+光,Light,Noun,窓から光が入ります。,N3
+影,Shadow,Noun,木の影で休みます。,N3
+波,Wave,Noun,今日は波が高いです。,N3
+煙,Smoke,Noun,台所から煙が出ています。,N3
+汗,Sweat,Noun,走って汗をかきました。,N3
+涙,Tears,Noun,映画を見て涙が出ました。,N3
+血,Blood,Noun,指から血が出ています。,N3
+骨,Bone,Noun,足の骨を折りました。,N3
+命,Life,Noun,命は大切です。,N3
+健康,Health,Noun,健康のために毎日歩きます。,N3
+症状,Symptom,Noun,どんな症状がありますか。,N3
+治療,Medical treatment,Noun,病院で治療を受けています。,N3
+手術,Surgery,Noun,父は手術を受けました。,N3
+患者,Patient,Noun,病院に患者がたくさんいます。,N3
+上司,Boss or superior,Noun,上司に相談しました。,N3
+同僚,Coworker,Noun,同僚と昼ご飯を食べます。,N3
+部下,Subordinate,Noun,部下に仕事を頼みます。,N3
+相手,Partner or opponent,Noun,試合の相手は強いです。,N3
+仲間,Companion or friend,Noun,仲間と一緒に頑張ります。,N3
+他人,Stranger or other people,Noun,他人の物を使わないでください。,N3
+個人,Individual,Noun,個人の意見を聞かせてください。,N3
+国民,Citizens or nation,Noun,国民の生活が良くなりました。,N3
+政府,Government,Noun,政府が新しい法律を作りました。,N3
+選挙,Election,Noun,来月選挙があります。,N3
+戦争,War,Noun,戦争は悲しいです。,N3
+平和,Peace,Noun,世界の平和を願っています。,N3
+事件,Incident or case,Noun,昨日大きな事件がありました。,N3
+犯人,Criminal,Noun,警察が犯人を捕まえました。,N3
+証拠,Evidence,Noun,証拠がありません。,N3
+会員,Member,Noun,このクラブの会員になりました。,N3
+組織,Organization,Noun,大きな組織で働いています。,N3
+制度,System or institution,Noun,新しい制度が始まりました。,N3
+条件,Condition or terms,Noun,この仕事の条件はいいです。,N3
+基本,Basics,Noun,基本から勉強しましょう。,N3
+訓練,Training or drill,Noun,今日は火事の訓練があります。,N3
+資料,Materials or data,Noun,会議の資料を作ります。,N3
+書類,Documents,Noun,書類にサインしてください。,N3
+締め切り,Deadline,Noun,レポートの締め切りは明日です。,N3
+与える,To give or grant,Verb,子供に影響を与えます。,N3
+表す,To express or show,Verb,気持ちを言葉で表します。,N3
+現れる,To appear,Verb,空に虹が現れました。,N3
+示す,To show or indicate,Verb,地図で場所を示してください。,N3
+含む,To include,Verb,料金は税金を含んでいます。,N3
+伝える,To convey or tell,Verb,先生によろしく伝えてください。,N3
+伝わる,To be conveyed,Verb,気持ちが伝わりました。,N3
+加える,To add,Verb,スープに塩を加えます。,N3
+預ける,To leave in someone's care,Verb,銀行にお金を預けます。,N3
+預かる,To look after or keep,Verb,荷物を預かります。,N3
+争う,To compete or fight,Verb,二人は一位を争っています。,N3
+失う,To lose,Verb,自信を失いました。,N3
+疑う,To doubt or suspect,Verb,彼の話を疑っています。,N3
+求める,To seek or request,Verb,助けを求めました。,N3
+認める,To admit or recognize,Verb,彼は間違いを認めました。,N3
+守る,To protect or keep,Verb,約束を守ります。,N3
+破る,To tear or break,Verb,紙を破りました。,N3
+外す,To remove or take off,Verb,眼鏡を外します。,N3
+外れる,To come off or miss,Verb,ボタンが外れました。,N3
+超える,To exceed,Verb,気温が三十五度を超えました。,N3
+越える,To cross over,Verb,山を越えて町へ行きます。,N3
+過ごす,To spend (time),Verb,週末を家族と過ごしました。,N3
+暮らす,To live or get by,Verb,田舎で暮らしています。,N3
+勤める,To work for,Verb,銀行に勤めています。,N3
+訪れる,To visit,Verb,多くの観光客が京都を訪れます。,N3
+断る,To refuse,Verb,誘いを断りました。,N3
+諦める,To give up,Verb,夢を諦めないでください。,N3
+許す,To forgive or allow,Verb,彼を許します。,N3
+迷う,To get lost or hesitate,Verb,道に迷いました。,N3
+悩む,To worry or be troubled,Verb,進路について悩んでいます。,N3
+恐れる,To fear,Verb,失敗を恐れないでください。,N3
+期待する,To expect or hope,Verb,いい結果を期待しています。,N3
+確認する,To confirm,Verb,予約を確認します。,N3
+判断する,To judge,Verb,自分で判断してください。,N3
+解決する,To solve,Verb,問題を解決しました。,N3
+発見する,To discover,Verb,新しい星を発見しました。,N3
+発明する,To invent,Verb,エジソンは電球を発明しました。,N3
+発表する,To announce or present,Verb,研究の結果を発表します。,N3
+発展する,To develop,Verb,町が大きく発展しました。,N3
+成功する,To succeed,Verb,計画は成功しました。,N3
+失敗する,To fail,Verb,試験に失敗しました。,N3
+参加する,To participate,Verb,ボランティアに参加しました。,N3
+協力する,To cooperate,Verb,みんなで協力しましょう。,N3
+反対する,To oppose,Verb,その計画に反対します。,N3
+賛成する,To agree,Verb,あなたの意見に賛成します。,N3
+比較する,To compare,Verb,二つの国の文化を比較します。,N3
+理解する,To understand,Verb,彼の気持ちを理解しました。,N3
+記録する,To record,Verb,毎日の天気を記録します。,N3
+表現する,To express,Verb,気持ちを絵で表現します。,N3
+管理する,To manage,Verb,お金を管理しています。,N3
+提出する,To submit,Verb,レポートを提出しました。,N3
+報告する,To report,Verb,上司に結果を報告します。,N3
+変化する,To change,Verb,季節によって景色が変化します。,N3
+減少する,To decrease,Verb,人口が減少しています。,N3
+増加する,To increase,Verb,観光客が増加しました。,N3
+努力する,To make an effort,Verb,毎日努力しています。,N3
+我慢する,To endure or put up with,Verb,痛いけど我慢します。,N3
+詳しい,Detailed or knowledgeable,い-adjective,彼は歴史に詳しいです。,N3
+激しい,Violent or intense,い-adjective,激しい雨が降っています。,N3
+鋭い,Sharp,い-adjective,このナイフは鋭いです。,N3
+怪しい,Suspicious,い-adjective,怪しい人がいます。,N3
+羨ましい,Envious,い-adjective,あなたが羨ましいです。,N3
+悔しい,Frustrating or vexing,い-adjective,負けて悔しいです。,N3
+貧しい,Poor,い-adjective,昔は貧しい生活でした。,N3
+賢い,Wise or smart,い-adjective,この犬はとても賢いです。,N3
+偉い,Great or admirable,い-adjective,毎日勉強して偉いですね。,N3
+つらい,Painful or hard (emotionally),い-adjective,別れるのはつらいです。,N3
+恐ろしい,Terrifying,い-adjective,恐ろしい夢を見ました。,N3
+大人しい,Quiet or well-behaved,い-adjective,この犬は大人しいです。,N3
+豊か,Rich or abundant,な-adjective,この国は自然が豊かです。,N3
+正直,Honest,な-adjective,彼は正直な人です。,N3
+素直,Obedient or frank,な-adjective,子供たちは素直です。,N3
+冷静,Calm,な-adjective,冷静に考えてください。,N3
+正確,Accurate,な-adjective,正確な時間を教えてください。,N3
+明らか,Obvious or clear,な-adjective,結果は明らかです。,N3
+新鮮,Fresh,な-adjective,この魚は新鮮です。,N3
+単純,Simple,な-adjective,単純な問題です。,N3
+重要,Important,な-adjective,これは重要な会議です。,N3
+具体的,Concrete or specific,な-adjective,具体的に説明してください。,N3
+一般的,General or common,な-adjective,それは一般的な意見です。,N3
+積極的,Active or positive,な-adjective,彼は積極的に発言します。,N3
+基本的,Basic or fundamental,な-adjective,基本的なルールを守りましょう。,N3
+可能,Possible,な-adjective,明日までに終わらせることは可能です。,N3
+不安,Anxious or uneasy,な-adjective,明日の試験が不安です。,N3
+面倒,Troublesome or a hassle,な-adjective,料理は面倒です。,N3
+突然,Suddenly,Adverb,突然雨が降り出しました。,N3
+偶然,By chance,Adverb,駅で偶然友達に会いました。,N3
+当然,Naturally or of course,Adverb,当然、私も行きます。,N3
+再び,Again,Adverb,再び日本を訪れました。,N3
+次第に,Gradually,Adverb,次第に暗くなりました。,N3
+互いに,Mutually,Adverb,互いに助け合いましょう。,N3
+直接,Directly,Adverb,直接本人に聞いてください。,N3
+確かに,Certainly or indeed,Adverb,確かにそうですね。,N3
+結局,After all or in the end,Adverb,結局行きませんでした。,N3
+一体,What on earth,Adverb,一体何があったのですか。,N3
+さっぱり,Not at all or refreshing,Adverb,さっぱり分かりません。,N3
+相変わらず,As usual,Adverb,相変わらず忙しいです。,N3
+とうとう,Finally or at last,Adverb,とうとう夢が叶いました。,N3
+いきなり,Abruptly,Adverb,いきなりドアが開きました。,N3
+わざわざ,Going out of one's way,Adverb,わざわざ来てくれてありがとう。,N3
+せっかく,With great effort or specially,Adverb,せっかく作ったのに誰も食べません。,N3
+なるべく,As much as possible,Adverb,なるべく早く帰ります。,N3
+ますます,More and more,Adverb,ますます寒くなりました。,N3
+やはり,As expected,Adverb,やはり彼が来ました。,N3
+たまに,Occasionally,Adverb,たまに映画を見ます。,N3
+既に,Already,Adverb,既に電車は出発していました。,N3
+少なくとも,At least,Adverb,少なくとも一時間はかかります。,N3
+ところが,However or but,Conjunction,晴れると思いました。ところが雨が降りました。,N3
+つまり,In other words,Conjunction,つまり、あなたは反対ですか。,N3
+なぜなら,Because,Conjunction,行けません。なぜなら熱があるからです。,N3
+従って,Therefore,Conjunction,雨が降っています。従って試合は中止です。,N3

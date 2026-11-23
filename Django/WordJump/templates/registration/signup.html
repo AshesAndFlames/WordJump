@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Sign up - WordJump{% endblock %}
+{% block content %}
+<h1>Create your account</h1>
+<p>Sign up to start learning Japanese with WordJump.</p>
+
+<form method="post" class="auth-form" novalidate>
+    {% csrf_token %}
+    {% include 'includes/form.html' %}
+    <button type="submit" class="btn btn-block">Sign up</button>
+</form>
+
+<div class="form-footer">
+    <p>Already have an account? <a href="{% url 'login' %}">Log in</a></p>
+</div>
+{% endblock %}

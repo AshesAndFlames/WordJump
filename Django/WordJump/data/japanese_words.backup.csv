@@ -1,0 +1,52 @@
+foreign_word,translation,part_of_speech,example_sentence,jlpt_level
+朝,Morning,Noun,朝ご飯を食べます。,N5
+昼,Noon or daytime,Noun,昼に学校へ行きます。,N5
+夜,Night,Noun,夜に本を読みます。,N5
+今日,Today,Noun,今日は暑いです。,N5
+明日,Tomorrow,Noun,明日学校へ行きます。,N5
+昨日,Yesterday,Noun,昨日は雨でした。,N5
+今,Now,Noun,今何時ですか。,N5
+時間,Time,Noun,時間があります。,N5
+毎日,Every day,Adverb,毎日勉強します。,N5
+毎朝,Every morning,Adverb,毎朝走ります。,N5
+週,Week,Noun,一週間休みます。,N5
+月,Month or moon,Noun,来月日本へ行きます。,N5
+年,Year,Noun,一年勉強しました。,N5
+家族,Family,Noun,家族は四人です。,N5
+父,Father,Noun,父は会社員です。,N5
+母,Mother,Noun,母は料理をします。,N5
+兄,Older brother,Noun,兄は大学生です。,N5
+姉,Older sister,Noun,姉は優しいです。,N5
+弟,Younger brother,Noun,弟と遊びます。,N5
+妹,Younger sister,Noun,妹は学生です。,N5
+犬,Dog,Noun,犬が好きです。,N5
+鳥,Bird,Noun,鳥が空を飛びます。,N5
+魚,Fish,Noun,魚を食べます。,N5
+卵,Egg,Noun,卵を買います。,N5
+肉,Meat,Noun,肉を焼きます。,N5
+野菜,Vegetables,Noun,野菜を食べます。,N5
+果物,Fruit,Noun,果物が好きです。,N5
+りんご,Apple,Noun,りんごを食べます。,N5
+牛乳,Milk,Noun,牛乳を飲みます。,N5
+お茶,Tea,Noun,お茶を飲みます。,N5
+ご飯,Cooked rice or meal,Noun,ご飯を作ります。,N5
+パン,Bread,Noun,パンを買います。,N5
+店,Shop or store,Noun,店で買い物をします。,N5
+会社,Company,Noun,会社で働きます。,N5
+病院,Hospital,Noun,病院へ行きます。,N5
+図書館,Library,Noun,図書館で本を読みます。,N5
+公園,Park,Noun,公園で遊びます。,N5
+町,Town,Noun,町を歩きます。,N5
+国,Country,Noun,日本は好きな国です。,N5
+外国,Foreign country,Noun,外国へ行きたいです。,N5
+行く,To go,Verb,学校へ行きます。,N5
+来る,To come,Verb,友達が来ます。,N5
+帰る,To return home,Verb,家に帰ります。,N5
+買う,To buy,Verb,本を買います。,N5
+待つ,To wait,Verb,駅で待ちます。,N5
+会う,To meet,Verb,友達に会います。,N5
+休む,To rest or take a break,Verb,日曜日に休みます。,N5
+働く,To work,Verb,会社で働きます。,N5
+勉強する,To study,Verb,日本語を勉強します。,N5
+新しい,New,い-adjective,新しい本を買いました。,N5
+古い,Old,い-adjective,古い家があります。,N5

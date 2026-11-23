@@ -9,4 +9,9 @@ urlpatterns = [
         views.flashcards,
         name='flashcards'
     ),
+    path(
+        'answer/',
+        views.record_answer,
+        name='record_answer'
+    ),
 ]
